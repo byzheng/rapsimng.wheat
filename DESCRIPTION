@@ -1,0 +1,23 @@
+Package: rapsimng.wheat
+Title: Wheat Model for APSIM Next Generation
+Version: 0.1.0
+Authors@R: 
+    person("Bangou", "Zheng", , "zheng.bangyou@gmail.com", role = c("aut", "cre"))
+Description: Wheat model for APSIM Next Generation.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends: R (>= 4.1.0)
+Imports:
+    optree,
+    tidyweather
+Suggests: 
+    testthat (>= 3.0.0)
+Remotes:
+    byzheng/optree,
+    byzheng/tidyweather
+Config/testthat/edition: 3
+URL: https://wheat.rapsimng.bangyou.me/,
+    https://github.com/byzheng/rapsimng.wheat
+BugReports: https://github.com/byzheng/rapsimng.wheat/issues
