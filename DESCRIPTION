@@ -2,7 +2,7 @@ Package: rapsimng.wheat
 Title: Wheat Model for APSIM Next Generation
 Version: 0.1.0
 Authors@R: 
-    person("Bangou", "Zheng", , "zheng.bangyou@gmail.com", role = c("aut", "cre"))
+    person("Bangyou", "Zheng", , "zheng.bangyou@gmail.com", role = c("aut", "cre"))
 Description: Wheat model for APSIM Next Generation.
 License: MIT + file LICENSE
 Encoding: UTF-8
