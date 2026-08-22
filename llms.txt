@@ -1,0 +1,30 @@
+# rapsimng.wheat
+
+Wheat model for APSIM Next Generation.
+
+## Installation
+
+Currently on [Github](https://github.com/byzheng/rapsimng.wheat) only.
+Install with:
+
+``` r
+
+remotes::install_github('byzheng/rapsimng.wheat')
+```
+
+## Documentation
+
+For detailed documentation and reference, visit:
+<https://wheat.rapsimng.bangyou.me>
+
+------------------------------------------------------------------------
+
+# Package index
+
+## All functions
+
+- [`thermal_time()`](https://wheat.rapsimng.bangyou.me/reference/thermal_time.md)
+  : Calculate thermal time using cardinal temperatures
+- [`wheat`](https://wheat.rapsimng.bangyou.me/reference/wheat.md) :
+  Wheat model options manager
+
