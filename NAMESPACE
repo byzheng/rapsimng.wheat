@@ -2,4 +2,7 @@
 
 export(thermal_time)
 export(wheat)
-importFrom(optree,create_options_manager)
+importFrom(optree,
+  create_options_manager,
+  v_xypair
+)

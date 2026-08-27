@@ -19,6 +19,7 @@
 #'
 #' @export
 #' @importFrom optree create_options_manager
+#' @importFrom optree v_xypair
 #' @examples
 #' # Get default thermal time cardinal temperatures
 #' wheat$get("phenology.thermal_time.x")
@@ -39,6 +40,6 @@ wheat <- optree::create_options_manager(
         )
     ),
     validators = list(
-        "phenology.thermal_time" = optree::v_xypair(min_len = 3)
+        "phenology.thermal_time" = v_xypair(min_len = 3)
     )
 )

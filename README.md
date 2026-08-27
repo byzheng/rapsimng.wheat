@@ -16,5 +16,4 @@ remotes::install_github('byzheng/rapsimng.wheat')
 
 For detailed documentation and reference, visit: https://wheat.rapsimng.bangyou.me
 
----
 
