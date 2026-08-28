@@ -21,6 +21,6 @@ thermal_time <- function(mint,
         maxt,
         x_temp = wheat$get("phenology.thermal_time.x"), 
         y_temp = wheat$get("phenology.thermal_time.y"),
-        method = "3hr") {
+        method = wheat$get("phenology.thermal_time.method")) {
     tidyweather::thermal_time(mint, maxt, x_temp, y_temp, method)
 }

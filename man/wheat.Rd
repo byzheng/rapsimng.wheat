@@ -15,6 +15,7 @@ methods to get and set wheat related parameters.
 \describe{
 \item{phenology.thermal_time.x}{Cardinal temperatures for thermal time calculation. Default: c(0, 26, 37)}
 \item{phenology.thermal_time.y}{Effective thermal time at corresponding cardinal temperatures. Default: c(0, 26, 0)}
+\item{phenology.thermal_time.method}{Method used for thermal time calculation. Supported values: "3hr" and "HourlySinPpAdjusted". Default: "3hr"}
 }
 }
 

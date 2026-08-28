@@ -8,6 +8,7 @@
 #' \describe{
 #'   \item{phenology.thermal_time.x}{Cardinal temperatures for thermal time calculation. Default: c(0, 26, 37)}
 #'   \item{phenology.thermal_time.y}{Effective thermal time at corresponding cardinal temperatures. Default: c(0, 26, 0)}
+#'   \item{phenology.thermal_time.method}{Method used for thermal time calculation. Supported values: "3hr" and "HourlySinPpAdjusted". Default: "3hr"}
 #' }
 #'
 #' @section Methods:
@@ -35,11 +36,13 @@ wheat <- optree::create_options_manager(
         phenology = list(
             thermal_time = list(
                 x = c(0, 26, 37),
-                y = c(0, 26, 0)
+                y = c(0, 26, 0),
+                method = "3hr"
             )
         )
     ),
     validators = list(
-        "phenology.thermal_time" = v_xypair(min_len = 3)
+        "phenology.thermal_time" = v_xypair(min_len = 3),
+        "phenology.thermal_time.method" = optree::v_enum(c("3hr", "HourlySinPpAdjusted"))
     )
 )
