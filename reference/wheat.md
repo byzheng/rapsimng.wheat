@@ -9,10 +9,6 @@ provides methods to get and set wheat related parameters.
 wheat
 ```
 
-## Format
-
-An object of class `list` of length 3.
-
 ## Available Options
 
 - phenology.thermal_time.x:
@@ -24,6 +20,11 @@ An object of class `list` of length 3.
 
   Effective thermal time at corresponding cardinal temperatures.
   Default: c(0, 26, 0)
+
+- phenology.thermal_time.method:
+
+  Method used for thermal time calculation. Supported values: "3hr" and
+  "HourlySinPpAdjusted". Default: "3hr"
 
 ## Methods
 
