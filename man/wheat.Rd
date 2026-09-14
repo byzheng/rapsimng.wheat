@@ -6,6 +6,9 @@
 \usage{
 wheat
 }
+\value{
+An option manager object for configuring wheat model parameters.
+}
 \description{
 An options manager for configuring wheat model parameters. This object provides
 methods to get and set wheat related parameters.
