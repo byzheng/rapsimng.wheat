@@ -9,6 +9,10 @@ provides methods to get and set wheat related parameters.
 wheat
 ```
 
+## Value
+
+An option manager object for configuring wheat model parameters.
+
 ## Available Options
 
 - phenology.thermal_time.x:
