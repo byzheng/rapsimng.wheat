@@ -1,3 +1,4 @@
+[![](https://www.r-pkg.org/badges/version/rapsimng.wheat?color=green)](https://cran.r-project.org/package/rapsimng.wheat)
 [![R-CMD-check.yaml](https://github.com/byzheng/rapsimng.wheat/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/byzheng/rapsimng.wheat/actions/workflows/R-CMD-check.yaml)
 
 [![](http://cranlogs.r-pkg.org/badges/grand-total/rapsimng.wheat?color=green)](https://cran.r-project.org/package=rapsimng.wheat)
